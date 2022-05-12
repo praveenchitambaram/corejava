@@ -1,0 +1,22 @@
+package com.chainsys.javapracties;
+
+import java.util.Scanner;
+
+public class ControlStatement {
+
+	public static void main(String[] args) {
+     Scanner scanner=new Scanner(System.in);
+     System.out.println("Enter the number");
+     String number=scanner.next();
+     scanner.close();
+		
+		if (number%2==0) {
+			System.out.println("EvanNumber");
+		}else {
+			System.out.println("oddNumber");
+		}
+			
+
+	}
+
+}

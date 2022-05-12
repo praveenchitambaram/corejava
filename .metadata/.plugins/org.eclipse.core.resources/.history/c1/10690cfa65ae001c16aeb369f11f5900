@@ -1,0 +1,24 @@
+package com.chainsys.strings;
+
+public class StringLessonA {
+	public static void lessonone() {
+		String fistString="chainsys";
+		System.out.println(fistString);
+		char dataone[]= {'c','h','a','a','i','n'};
+		String secondString=new String(dataone);
+		System.out.println(secondString);
+		String thirdString=new String(new char[]{'c','h','a','a','i','n'});
+		System.out.println(thirdString);
+				
+		
+	}
+	public static void lessonTwo() {
+		String firstString="Hello";
+		String secontString="Hello";
+		String thirdString="Hello";
+		int firstNumber=100;
+		int secontNumber=100;
+		int thirdNumber=100;
+	}
+
+}

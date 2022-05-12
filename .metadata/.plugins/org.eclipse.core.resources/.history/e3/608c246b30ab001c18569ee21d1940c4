@@ -1,0 +1,78 @@
+package com.chainsys.introduction;
+public class Firth {
+
+	public static void main(String[] args) {
+		printtaiangleC();
+
+	}
+
+	public static void prinnumberonetohundered() {
+		int count = 0;
+		for (count = 0; count <= 100; count++) {
+			System.out.println(count + "");
+		}
+	}
+
+	public static void prinnumbertentoone() {
+		int count = 0;
+		for (count = 0; count >= 10; count--) {
+			System.out.println(count + "");
+		}
+
+	}
+
+	public static void printmatrix() {
+		int counta = 0;
+		for (counta = 1; counta <= 10; counta++) {
+			for (int countb = 1; countb <= 10; countb++) {
+				System.out.print(countb + " ");
+			}
+			System.out.println();
+		}
+	}
+
+	public static void printtaiangle() {
+		int counta = 0;
+		for (counta = 1; counta <= 10; counta++) {
+			for (int countb = 1; countb <= counta; countb++) {
+				System.out.print(countb + "");
+			}
+			System.out.println();
+		}
+	}
+
+	public static void printtaiangleB() {
+		int counta = 0;
+		for (counta = 1; counta <= 10; counta++) {
+			for (int countb = 10; countb > counta; countb--) {
+				System.out.print(".");
+			}
+			for (int countc = counta; countc >= 1; countc--) {
+				System.out.print(countc);
+			}
+			System.out.println();
+		}
+
+	}
+
+	public static void printtaiangleC() {
+		int counta = 0;
+		for (counta = 1; counta <= 10; counta++) 
+		{
+			
+			for (int countb = 5; countb <= 10-counta; countb++) {
+				System.out.print(" ");
+			}
+			for(int countc=counta;countc>=1;countc--) 
+			{
+				System.out.print(countc);
+			}
+			for(int countd=2;countd<=counta;) {
+				System.out.print(countd);
+			}
+			System.out.println();
+		}
+
+	}
+
+}

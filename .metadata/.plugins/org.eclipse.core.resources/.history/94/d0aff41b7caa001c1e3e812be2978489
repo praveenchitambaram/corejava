@@ -1,0 +1,27 @@
+package com.chainsys.introduction;
+
+import java.util.Scanner;
+
+public class Fourth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("what is your name");
+		String name = sc.next();
+		sc.close();
+		System.out.println(name);
+
+	}
+
+	public static void taskB() {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("what is your number");
+		String number = sc.next();
+		sc.close();
+		System.out.println(number);
+
+	}
+
+}
