@@ -27,4 +27,8 @@
 	</section>
 	<section name="org.eclipse.ui.preferences.keysPreferencePage">
 	</section>
+	<section name="ImportExportAction">
+	</section>
+	<section name="FileSystemImportWizard">
+	</section>
 </section>

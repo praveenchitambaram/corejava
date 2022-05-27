@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ControlStatement {
 	public static void main(String[] args) {
-		ifstaement();
+		ifelselader();
 	}
 	public static void ifstaement() {
 		int a=18;
@@ -37,5 +37,6 @@ public class ControlStatement {
 		System.out.println("invalid");
 	}
 	}
+	
 
 }
