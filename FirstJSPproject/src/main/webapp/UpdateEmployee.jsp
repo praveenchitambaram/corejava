@@ -7,7 +7,7 @@
 <title>Update Employee</title>
 </head>
 <body>
-<form action="/FirstJSPproject/AddEmployee" method="post"> <!--need to mention method = post  -->
+<form action="UpdateEmpServlet" method="post"> <!--need to mention method = post  -->
         <center>
             <div>
             ID : <input type='text' name='id'>
